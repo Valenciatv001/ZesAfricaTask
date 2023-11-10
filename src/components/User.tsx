@@ -89,7 +89,7 @@ const User: FC<State> = () => {
                   <tr key={index}>
                     <td
                       width="30%"
-                      style={{ color: "red", cursor: "pointer" }}
+                      style={{ color: "green", cursor: "pointer" }}
                       onClick={() => navigate(`/user/${user.login.uuid}`)}
                     >
                       {user.name.title}

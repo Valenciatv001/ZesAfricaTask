@@ -1,6 +1,8 @@
 .users-container {
   margin: 50px;
   padding: 10px;
+  background-color: blueviolet;
+  font-size: 30px;
 }
 
 .users-container select {
@@ -30,7 +32,7 @@
 .users-container .buttons button {
   padding: 10px;
   color: white;
-  background-color: blue;
+  background-color: rgb(43, 255, 0);
   border: none;
   transition: opacity 0.6s;
   cursor: pointer;
@@ -38,4 +40,5 @@
 
 .users-container .buttons button:hover {
   opacity: 0.3;
+  color: darkgray;
 }
